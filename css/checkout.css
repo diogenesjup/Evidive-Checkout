@@ -220,8 +220,31 @@ section.content-checkout .table td {
     margin-top: -5px;
 }
 
+.legendas{
+        padding-top: 2px;
+    padding-bottom: 17px;
+    color: #747474;
+    font-size: 12px;
+    margin-top: -26px;
+}
+
+.legendas span{
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 12px;
+  background: #ccc;
+}
+
+.legendas span.label1{
+  background: #7FE69E;
+}
 
 
+.legendas span.label2{
+   background: #FFA124;
+   margin-left: 12px;
+}
 
 
 section.content-checkout .disclamer{

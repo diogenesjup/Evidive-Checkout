@@ -215,6 +215,11 @@ osssssssssssssss:        :osssssssssss+:.``.-:+sssssssssso.        /osssssssssss
 
                     </div>
                 </div>
+                <div class="legendas">
+                  <span class="label1"></span> Data disponível
+                  <span class="label2"></span> Data selecionada
+                </div>
+                
                 <div id="retornoCalendario"></div>
                 
                 <form class="form-2">
@@ -363,6 +368,11 @@ osssssssssssssss:        :osssssssssss+:.``.-:+sssssssssso.        /osssssssssss
 
             $('span[data-date="'+arg+'"]').addClass("diaMarcado");
 
+            var validarData = arg.split("-");
+
+
+            if(validarData[0]=="11" && parseInt(validarData[1]) > 25 && validarData[2] == "2020"){
+
             $("#retornoCalendario").html(`
               
               <h2>Data: 25/11/2020</h2>
@@ -373,7 +383,7 @@ osssssssssssssss:        :osssssssssss+:.``.-:+sssssssssso.        /osssssssssss
 
                       <form class="form-1">
 
-                                    <label>Selecione um horário</label>
+                                   <label>Selecione um horário</label>
                                    <select class="form-control">
                                       <option>14:00</option>
                                       <option>15:00</option>
@@ -410,6 +420,19 @@ osssssssssssssss:        :osssssssssss+:.``.-:+sssssssssso.        /osssssssssss
                           
 
             `);
+
+          }else{
+
+            $("#retornoCalendario").html(`
+                
+                <div class="alert alert-danger" role="alert">
+                  Desculpe, não temos mais vagas para essa data.
+                </div>
+
+            `);
+              
+          }
+
         }
         var dp1 = document.getElementById('cal-responsive-galileo2');
         if(dp1){
