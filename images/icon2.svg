@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="41" viewBox="0 0 44 41">
+  <g id="Grupo_179" data-name="Grupo 179" transform="translate(0 -0.314)">
+    <g id="Retângulo_99" data-name="Retângulo 99" transform="translate(0 6.314)" fill="#fff" stroke="#00c5b5" stroke-width="3">
+      <rect width="44" height="35" stroke="none"/>
+      <rect x="1.5" y="1.5" width="41" height="32" fill="none"/>
+    </g>
+    <g id="Retângulo_100" data-name="Retângulo 100" transform="translate(0 6.314)" fill="#00c5b5" stroke="#00c5b5" stroke-width="3">
+      <rect width="44" height="9" stroke="none"/>
+      <rect x="1.5" y="1.5" width="41" height="6" fill="none"/>
+    </g>
+    <path id="Caminho_15" data-name="Caminho 15" d="M-5500.315,1690.443l6.954,6.954,11.423-12.665" transform="translate(5513.014 -1664.589)" fill="none" stroke="#00c5b5" stroke-width="4"/>
+    <g id="Grupo_178" data-name="Grupo 178" transform="translate(7.007)">
+      <g id="Retângulo_101" data-name="Retângulo 101" transform="translate(-0.007 0.314)" fill="#fff" stroke="#00c5b5" stroke-width="3">
+        <rect width="10" height="10" stroke="none"/>
+        <rect x="1.5" y="1.5" width="7" height="7" fill="none"/>
+      </g>
+      <g id="Retângulo_102" data-name="Retângulo 102" transform="translate(19.993 0.314)" fill="#fff" stroke="#00c5b5" stroke-width="3">
+        <rect width="10" height="10" stroke="none"/>
+        <rect x="1.5" y="1.5" width="7" height="7" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

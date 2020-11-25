@@ -1,0 +1,242 @@
+body{
+  padding: 0;
+}
+
+header.checkout{
+   position: relative;
+   display: block;
+   box-shadow: none;
+   border: none;
+   filter: none;
+   margin-bottom: 22px;
+   width: 100%;
+   height: auto;
+}
+
+header.checkout .barra-cinza-header{
+   position: relative;
+   display: block;
+   width: 110%;
+   margin-left: -5%;
+   height: 34px;
+   background: #EFF7F8;
+}
+
+@media(max-width: 540px){
+
+	header.checkout .barra-cinza-header{
+	   position: relative;
+	   display: block;
+	   width: 100%;
+	   margin-left: 0%;
+	   height: 34px;
+	   background: #EFF7F8;
+	}
+
+}
+
+header.checkout .logo{
+   
+}
+
+
+@media(max-width: 540px){
+	header.checkout .logo img{
+	   width: 205px !important;
+	}
+}
+
+
+section.content-checkout{
+  padding-bottom: 50px;
+}
+
+section.content-checkout .navegecao-checkout{
+  text-align: right;
+  padding-bottom: 14px;
+  padding-top: 14px;
+}
+
+@media(max-width: 540px){
+	section.content-checkout .navegecao-checkout{
+		display: none;
+	}
+}
+
+section.content-checkout .navegecao-checkout nav ul{
+	padding-left: 0px;
+	margin-left: 0px;
+	text-align: right;
+}
+
+section.content-checkout .navegecao-checkout nav ul li{
+	list-style: none;
+	display: inline;
+	padding-left: 20px;
+}
+
+
+section.content-checkout .navegecao-checkout nav ul li a{
+	color: #9B9292;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+section.content-checkout .navegecao-checkout nav ul li.ativo a{
+	font-weight: bold;
+	color: #00C5B5;
+}
+
+section.content-checkout .navegecao-checkout nav ul li a i{
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+
+section.content-checkout .coluna-um{
+	padding-top: 30px;
+	color: #444444;
+}
+
+section.content-checkout .coluna-dois{
+	padding-top: 30px;
+}
+
+section.content-checkout .coluna-um p,
+section.content-checkout .coluna-um label,
+section.content-checkout .coluna-um .form-control{
+	font-size: 14px;
+}
+
+section.content-checkout .coluna-um h1{
+	font-size: 22px;
+    font-weight: 600;
+    color: #005D6E;
+}
+
+section.content-checkout .coluna-um .form-1{
+	padding-top: 0;
+    padding-bottom: 23px;
+}
+
+section.content-checkout .coluna-um label{
+	    padding-right: 10px;
+}
+
+
+section.content-checkout .coluna-um .form-2 .form-control{
+	width: 142px;
+	height: auto;
+}
+
+
+section.content-checkout .caixa{
+	background: #E7F3F5;
+	padding: 20px;
+	width: 92.5%;
+	float: right;
+	border:1px solid #005D6E;
+	margin-bottom: 20px;
+}
+
+@media(max-width: 540px){
+	section.content-checkout .caixa{
+		width: 100%;
+	}
+}
+
+section.content-checkout .caixa h3{
+	color: #00C5B5;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+section.content-checkout .caixa h4{
+	color: #484849;
+    margin-top: 14px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+section.content-checkout .caixa p{
+	color: #444444;
+}
+
+section.content-checkout .caixa .titulo-da-caixa h2{
+    position: relative;
+    display: block;
+    background: #005D6E;
+    color: #fff;
+    width: 120%;
+    margin-left: -10%;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    font-weight: 300;
+    margin-top: 3px;
+}
+
+
+section.content-checkout .table th,
+section.content-checkout .table td {
+  padding-left: 0px !important;
+}
+
+.caixa h2.valorTotal{
+	text-align: right;
+}
+
+.caixa h2.valorTotal small{
+	float: left;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.btn-next{
+	padding-top: 25px;
+}
+
+.btn-next .btn-success,
+.btn-next .btn-success:hover,
+.btn-next .btn-success:active,
+.btn-next .btn-success:visited,
+.btn-next .btn-success:focus{
+  background: #0BC53B;
+  border-color: #0BC53B;
+  border-radius: 8px;
+  text-align: center;
+  width: 230px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  letter-spacing: 2px;
+  font-size: 14px;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-next .btn-success i{
+	float: right;
+    font-size: 26px;
+    margin-top: -5px;
+}
+
+
+
+
+
+section.content-checkout .disclamer{
+    color: #9B9292;
+    font-size: 13px;
+    padding-top: 30px;
+    opacity: 0.8;
+}
+section.content-checkout .disclamer a{
+	color: #B4ADAD;
+	text-decoration: underline;
+}
+section.content-checkout .disclamer p{
+	margin-bottom: 6px;
+}
+
+
+
